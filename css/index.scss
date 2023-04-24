@@ -5,7 +5,7 @@ html {
   padding: 0;
   background-color: rgb(59, 59, 59);
   color: white;
-  background: url("./images/CITYSCAPE1142023.webp") no-repeat center center fixed;
+  background: url("../images/CITYSCAPE1142023.webp") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -23,33 +23,30 @@ ul {
   margin: 0 auto;
   padding: 2em;
   max-width: 400px;
-}
-
-ul > li {
-  background-color: #000a;
-  backdrop-filter: blur(10px);
-  border-radius: 10em;
-  padding: 1em;
-  margin: 1.4em 0;
-  box-shadow: 20px 20px 58px 2px rgba(0, 0, 0, 0.39);
-}
-
-ul > li > a {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5em;
+  li {
+    background-color: #000a;
+    backdrop-filter: blur(10px);
+    border-radius: 10em;
+    padding: 1em;
+    margin: 1.4em 0;
+    box-shadow: 20px 20px 58px 2px rgba(0, 0, 0, 0.39);
+    a {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.5em;
+    }
+  }
 }
 
 a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-}
-
-a:hover {
-  animation: tada 1s;
+  &:hover {
+    animation: tada 1s
+  }
 }
 
 section {
@@ -67,16 +64,6 @@ p {
   padding: 0 0.5em;
 }
 
-header > h1 {
-  display: inline-block;
-  font-size: 1em;
-  border-radius: 1em;
-  background-color: #000a;
-  backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-  padding: 0.3em 0.9em;
-  border: 1px solid #fffa;
-  white-space: nowrap;
-}
 
 header {
   padding-top: 3em;
@@ -84,6 +71,16 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  h1 {
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 1em;
+    background-color: #000a;
+    backdrop-filter: blur(10px) saturate(160%) contrast(180%);
+    padding: 0.3em 0.9em;
+    border: 1px solid #fffa;
+    white-space: nowrap;
+  }
 }
 
 @media screen and (max-width: 600px) {
