@@ -1,2 +1,1 @@
-# Anonymous
-My personal and simple website
+# My Personal Website
