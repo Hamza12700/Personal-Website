@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 @import "@fortawesome/fontawesome-free/css/all.css";
+
+@font-face {
+  font-family: "Poppins-Reg";
+  src: url("/fonts/Poppins-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins-Med";
+  src: url("/fonts/Poppins-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FiraCode-Reg";
+  src: url("/fonts/FiraCode-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Dancing-Script";
+  src: url("/fonts/DancingScript-SemiBold.woff2");
+}
+
 :root {
   color: white;
 
