@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{svelte,js,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins-Reg"],
+        poppinsMed: ["Poppins-Med"],
+        firaCode: ["FiraCode-Reg"],
+        dancingScript: ["Dancing-Script"],
+      },
+    },
   },
   plugins: [],
 };
