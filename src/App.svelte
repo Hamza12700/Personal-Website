@@ -2,7 +2,7 @@
   <h1 class="font-dancingScript text-3xl">Hamza Rashid</h1>
   <section class="flex font-poppins items-center gap-3">
     <a
-      class="transition mx-2 ease-in-out hover:text-sky-500"
+      class="transition hover:-translate-y-1 mx-2 ease-in-out hover:text-sky-500"
       target="_blank"
       href="https://github.com/hamza12700/"
     >
@@ -11,7 +11,7 @@
     </a>
 
     <a
-      class="transition mx-2 ease-in-out hover:text-sky-500"
+      class="transition hover:-translate-y-1 mx-2 ease-in-out hover:text-sky-500"
       target="_blank"
       href="https://x.com/Hamza_Rash1d"
     >
