@@ -19,10 +19,8 @@
       <span class="hidden md:inline">Twitter</span>
     </a>
 
-    <button class="ml-2 md:ml-4 btn" type="button"
-      ><a href="https://github.com/Hamza12700?tab=repositories" target="_blank">
-        Projects
-      </a>
-    </button>
+    <a href="https://github.com/Hamza12700?tab=repositories" target="_blank">
+      <button class="ml-2 md:ml-4 btn" type="button">Projects</button>
+    </a>
   </section>
 </nav>

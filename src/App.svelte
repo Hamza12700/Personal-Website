@@ -17,9 +17,11 @@
     bring creativity and innovation to every project I undertake while enjoying
     the thrill of coding along the way.
   </p>
-  <button class="btn w-full sm:w-auto mb-5 sm:mr-3" type="button"
-    >Projects</button
-  >
+  <a href="https://github.com/Hamza12700?tab=repositories">
+    <button class="btn w-full sm:w-auto mb-5 sm:mr-3" type="button"
+      >Projects</button
+    >
+  </a>
   <a
     class="transition hidden sm:inline mx-2 ease-in-out hover:text-sky-500"
     target="_blank"
