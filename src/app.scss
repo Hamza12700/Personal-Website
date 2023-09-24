@@ -28,6 +28,11 @@
   src: url("/fonts/FiraCode-Bold.woff2");
 }
 
+@font-face {
+  font-family: "Noto-Sans Bold";
+  src: url("/fonts/NotoSansSC-Bold.woff2") format("woff2");
+}
+
 :root {
   color: white;
 

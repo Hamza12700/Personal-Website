@@ -9,6 +9,7 @@ export default {
         firaCode: ["FiraCode-Reg"],
         firaCodeBold: ["FiraCode-Bold"],
         dancingScript: ["Dancing-Script"],
+        notoSans_Bold: ["Noto-Sans Bold"],
       },
     },
   },
