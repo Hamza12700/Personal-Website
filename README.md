@@ -1,1 +1,2 @@
-# My Personal Website
+# Personal Website
+![Screenshot](./public/web-screenshot.webp)
