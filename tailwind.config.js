@@ -7,6 +7,7 @@ export default {
         poppins: ["Poppins-Reg"],
         poppinsMed: ["Poppins-Med"],
         firaCode: ["FiraCode-Reg"],
+        firaCodeBold: ["FiraCode-Bold"],
         dancingScript: ["Dancing-Script"],
       },
     },
