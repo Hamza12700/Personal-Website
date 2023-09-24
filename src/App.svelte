@@ -20,7 +20,7 @@
     </a>
 
     <button
-      class="ml-4 text-sky-500 transition ease-in-out hover:-translate-y-1 hover:bg-sky-500 hover:text-white hover: border-2 border-sky-500 rounded-full py-2 px-4 font-bold"
+      class="ml-4 text-sky-500 transition ease-in-out hover:-translate-y-1 hover:bg-sky-500 hover:text-white border-2 border-sky-500 rounded-full py-2 px-4 font-bold"
       type="button"
       ><a href="https://github.com/Hamza12700?tab=repositories" target="_blank">
         Projects
