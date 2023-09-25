@@ -5,7 +5,7 @@
 <NavBar />
 <main class="mt-32 md:mt-36 mx-5 md:mx-10">
   <h1 class="text-5xl md:text-7xl mb-3 font-firaCodeBold">Hey, I'm Hamza</h1>
-  <h2 class="text-sky-500 text-3xl md:text-4xl font-notoSans_Bold">
+  <h2 class="text-sky-500 text-3xl md:text-4xl font-openSansBold">
     Front-End Developer
   </h2>
   <p class="my-4 md:w-[45rem] leading-8 font-poppinsMed text-xl">
