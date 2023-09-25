@@ -5,32 +5,36 @@
 
 @font-face {
   font-family: "Poppins-Reg";
-  src: url("/fonts/Poppins-Regular.woff2") format("woff2");
+  src: local("Poppins Regular"), local("Poppins-Regular"),
+    url("/fonts/Poppins-Regular.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Poppins-Med";
-  src: url("/fonts/Poppins-Medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "FiraCode-Reg";
-  src: url("/fonts/FiraCode-Regular.woff2") format("woff2");
+  src: local("Poppins Medium"), local("Poppins-Medium"),
+    url("/fonts/Poppins-Medium.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Dancing-Script";
-  src: url("/fonts/DancingScript-SemiBold.woff2");
+  src: local("DancingScript SemiBold"), local("DancingScript-SemiBold"),
+    url("/fonts/DancingScript-SemiBold.woff2");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "FiraCode-Bold";
-  src: url("/fonts/FiraCode-Bold.woff2");
+  src: local("FiraCode Bold"), local("FiraCode-Bold"),
+    url("/fonts/FiraCode-Bold.woff2");
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "Noto-Sans Bold";
-  src: url("/fonts/NotoSansSC-Bold.woff2") format("woff2");
+  font-family: "OpenSans Bold";
+  src: url("/fonts/OpenSans-Bold.woff2") format("woff2");
+  font-display: swap;
 }
 
 :root {
