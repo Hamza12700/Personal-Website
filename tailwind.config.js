@@ -4,11 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins-Reg"],
-        poppinsMed: ["Poppins-Med"],
-        firaCodeBold: ["FiraCode-Bold"],
-        dancingScript: ["Dancing-Script"],
-        openSansBold: ["OpenSans Bold"],
+        poppins: ["Poppins"],
+        firaCodeBold: ["Fira Code"],
+        dancingScript: ["Dancing Script"],
+        openSansBold: ["Open Sans"],
       },
     },
   },

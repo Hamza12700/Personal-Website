@@ -8,7 +8,7 @@
   <h2 class="text-sky-500 text-3xl md:text-4xl font-openSansBold">
     Front-End Developer
   </h2>
-  <p class="my-4 md:w-[45rem] leading-8 font-poppinsMed text-xl">
+  <p class="my-4 md:w-[45rem] leading-8 font-bold font-poppins text-xl">
     I'm passionate about the dynamic world of web development, with a particular
     focus on front-end technologies. In this ever-evolving field, I find myself
     in a constant state of learning, eagerly embracing new technologies and
