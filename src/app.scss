@@ -3,40 +3,6 @@
 @tailwind utilities;
 @import "@fortawesome/fontawesome-free/css/all.css";
 
-@font-face {
-  font-family: "Poppins-Reg";
-  src: local("Poppins Regular"), local("Poppins-Regular"),
-    url("/fonts/Poppins-Regular.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Poppins-Med";
-  src: local("Poppins Medium"), local("Poppins-Medium"),
-    url("/fonts/Poppins-Medium.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Dancing-Script";
-  src: local("DancingScript SemiBold"), local("DancingScript-SemiBold"),
-    url("/fonts/DancingScript-SemiBold.woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "FiraCode-Bold";
-  src: local("FiraCode Bold"), local("FiraCode-Bold"),
-    url("/fonts/FiraCode-Bold.woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "OpenSans Bold";
-  src: url("/fonts/OpenSans-Bold.woff2") format("woff2");
-  font-display: swap;
-}
-
 :root {
   color: white;
 
