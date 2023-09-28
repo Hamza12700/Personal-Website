@@ -2,6 +2,10 @@
 import '@fortawesome/fontawesome-free/css/all.css';
 import NavBar from "../components/NavBar.astro";
 ---
+
+
+<!doctype html>
+<html lang="en">
 	<head>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,6 +38,12 @@ import NavBar from "../components/NavBar.astro";
     />
 		<title>Hamza Rashid</title>
 	</head>
+	<body>
+		<NavBar/>
+		<slot />
+	</body>
+</html>
+
 <style is:global>
 	:root {
 		color: white;
