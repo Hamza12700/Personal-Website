@@ -1,5 +1,4 @@
 {
-  "homepage": "https://hamza12700.github.io",
   "name": "hamza12700-github-io",
   "type": "module",
   "version": "0.0.1",
@@ -8,7 +7,6 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "deploy": "gh-pages -d dist",
     "astro": "astro"
   },
   "dependencies": {
@@ -16,8 +14,5 @@
     "@fortawesome/fontawesome-free": "^6.4.2",
     "astro": "^3.1.4",
     "tailwindcss": "^3.0.24"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.0.0"
   }
 }
