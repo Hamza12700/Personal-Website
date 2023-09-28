@@ -8,6 +8,9 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.0.0
     version: 5.0.0(astro@3.1.4)(tailwindcss@3.3.3)
+  '@fortawesome/fontawesome-free':
+    specifier: ^6.4.2
+    version: 6.4.2
   astro:
     specifier: ^3.1.4
     version: 3.1.4
@@ -722,6 +725,12 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@fortawesome/fontawesome-free@6.4.2:
+    resolution: {integrity: sha512-m5cPn3e2+FDCOgi1mz0RexTUvvQibBebOUlUlW0+YrMjDTPkiJ6VTKukA1GRsvRw+12KyJndNjj0O4AgTxm2Pg==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dev: false
 
   /@jridgewell/gen-mapping@0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}
