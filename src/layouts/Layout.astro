@@ -1,19 +1,21 @@
 ---
-import '@fortawesome/fontawesome-free/css/all.css';
+import "@fortawesome/fontawesome-free/css/all.css";
 import NavBar from "../components/NavBar.astro";
 ---
 
-
 <!doctype html>
 <html lang="en">
-	<head>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fira+Code:wght@700&family=Open+Sans:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/png" href="/letter-H.png" />
-		<meta name="author" content="Hamza Rashid" />
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fira+Code:wght@700&family=Open+Sans:wght@700&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png" href="/letter-H.png" />
+    <meta name="author" content="Hamza Rashid" />
     <meta
       name="description"
       content="Hamza Rashid | Portfolio showcasing my expertise in front-end web development. Explore my projects, technology stack. Contact me to collaborate on your next project."
@@ -36,25 +38,25 @@ import NavBar from "../components/NavBar.astro";
       name="twitter:image:src"
       content="https://raw.githubusercontent.com/Hamza12700/hamza12700.github.io/main/public/web-screenshot.webp"
     />
-		<title>Hamza Rashid</title>
-	</head>
-	<body class="min-h-screen">
-		<NavBar/>
-		<slot />
-	</body>
+    <title>Hamza Rashid</title>
+  </head>
+  <body class="min-h-screen">
+    <NavBar />
+    <slot />
+  </body>
 </html>
 
 <style is:global>
-	:root {
-		color: white;
-		font-synthesis: none;
-		text-rendering: optimizeLegibility;
-	}
-	body {
-		background: url("/background.webp") no-repeat center center fixed;
-		background-size: cover;
-	}
-	.btn {
-		@apply text-sky-500 transition ease-in-out hover:-translate-y-1 hover:bg-sky-500 hover:text-white border-2 border-sky-500 rounded-full py-2 px-4 font-bold;
-	}
+  :root {
+    color: white;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: url("/background.webp") no-repeat center center fixed;
+    background-size: cover;
+  }
+  .btn {
+    @apply text-sky-500 transition ease-in-out hover:-translate-y-1 hover:bg-sky-500 hover:text-white border-2 border-sky-500 rounded-full py-2 px-4 font-bold;
+  }
 </style>
