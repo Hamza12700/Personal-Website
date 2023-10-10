@@ -6,7 +6,6 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins"],
         firaCodeBold: ["Fira Code"],
-        dancingScript: ["Dancing Script"],
         openSansBold: ["Open Sans"],
       },
     },
