@@ -1,31 +1,28 @@
 ---
 import GitHubLogo from "./GitHubLogo.astro";
 import Logo from "./Logo.astro";
+import SocialLink from "./SocialLink.astro";
 import TwitterLogo from "./TwitterLogo.astro";
 ---
 
 <nav class="flex justify-between p-4">
   <Logo />
   <section class="flex font-poppins items-center gap-1 md:gap-3">
-    <a
-      aria-label="GitHub"
-      class="transition group hover:-translate-y-1 mx-1 md:mx-2 ease-in-out hover:text-sky-500"
-      target="_blank"
+    <SocialLink
+      title="GitHub"
+      ariaLabel="GitHub"
       href="https://github.com/hamza12700/"
     >
       <GitHubLogo />
-      <span class="hidden md:inline">GitHub</span>
-    </a>
+    </SocialLink>
 
-    <a
-      aria-label="Twitter"
-      class="transition group hover:-translate-y-1 mx-1 md:mx-2 ease-in-out hover:text-sky-500"
-      target="_blank"
+    <SocialLink
       href="https://x.com/Hamza_Rash1d"
+      ariaLabel="Twitter"
+      title="Twitter"
     >
       <TwitterLogo />
-      <span class="hidden md:inline">Twitter</span>
-    </a>
+    </SocialLink>
 
     <a href="https://github.com/Hamza12700?tab=repositories" target="_blank">
       <button class="ml-2 md:ml-3 btn" type="button">Projects</button>

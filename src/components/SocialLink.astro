@@ -1,0 +1,31 @@
+---
+interface Props {
+  ariaLabel: string;
+  href: string;
+  title?: string;
+  floats?: boolean;
+  inline?: boolean;
+}
+
+const {
+  ariaLabel,
+  href,
+  floats = true,
+  inline = false,
+  title = "",
+} = Astro.props;
+---
+
+<a
+  class:list={[
+    floats ? "hover:-translate-y-1" : "",
+    inline ? "sm:inline mx-2" : "mx-1 md:mx-2",
+    "transition group ease-in-out hover:text-sky-500",
+  ]}
+  aria-label={ariaLabel}
+  href={href}
+  target="_blank"
+>
+  <slot />
+  {title ? <span class="hidden md:inline">{title}</span> : null}
+</a>
