@@ -1,5 +1,6 @@
 ---
 import GitHubLogo from "../components/GitHubLogo.astro";
+import SocialLink from "../components/SocialLink.astro";
 import TwitterLogo from "../components/TwitterLogo.astro";
 import Layout from "../layouts/Layout.astro";
 ---
@@ -24,21 +25,22 @@ import Layout from "../layouts/Layout.astro";
         >Projects</button
       >
     </a>
-    <a
-      aria-label="GitHub"
-      class="transition group hidden sm:inline mx-2 ease-in-out hover:text-sky-500"
-      target="_blank"
+    <SocialLink
       href="https://github.com/hamza12700/"
+      ariaLabel="GitHub"
+      inline
+      floats
     >
       <GitHubLogo />
-    </a>
-    <a
-      aria-label="Twitter"
-      class="transition group hidden sm:inline mx-2 ease-in-out hover:text-sky-500"
-      target="_blank"
+    </SocialLink>
+
+    <SocialLink
       href="https://x.com/Hamza_Rash1d"
+      ariaLabel="Twiiter"
+      inline
+      floats
     >
       <TwitterLogo />
-    </a>
+    </SocialLink>
   </main>
 </Layout>
