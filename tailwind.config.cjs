@@ -8,6 +8,9 @@ module.exports = {
         firaCodeBold: ["Fira Code"],
         openSansBold: ["Open Sans"],
       },
+      backgroundColor: {
+        sweetBlack: "#131314"
+      }
     },
   },
   plugins: [],
