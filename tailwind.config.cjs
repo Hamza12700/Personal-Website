@@ -8,13 +8,6 @@ module.exports = {
         firaCodeBold: ["Fira Code"],
         openSansBold: ["Open Sans"],
       },
-      backgroundImage: {
-        backgroundFull: "url('./src/images/background.webp')",
-        backgroundHalf: "url('./src/images/backgroundx1920.webp')"
-      },
-      backgroundColor: {
-        sweetBlack: "#131314"
-      }
     },
   },
   plugins: [],
