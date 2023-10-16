@@ -40,7 +40,7 @@ import NavBar from "../components/NavBar.astro";
     <meta name="theme-color" content="#0ea5e9" />
     <title>Hamza Rashid</title>
   </head>
-  <body class="min-h-screen">
+  <body class="bg-sweetBlack lg:bg-backgroundHalf 2xl:bg-backgroundFull min-h-screen">
     <NavBar />
     <slot />
   </body>
@@ -54,24 +54,5 @@ import NavBar from "../components/NavBar.astro";
   }
   .btn {
     @apply text-sky-500 transition ease-in-out hover:-translate-y-1 hover:bg-sky-500 hover:text-white border-2 border-sky-500 rounded-full py-2 px-4 font-bold;
-  }
-  @media (max-width: 1920px) and (max-height: 1080px) {
-    body {
-      background: url("../images/backgroundx1920.webp") no-repeat center center
-        fixed;
-      background-size: cover;
-    }
-  }
-  @media (min-width: 1921px) or (min-height: 1081px) {
-    body {
-      background: url("../images/background.webp") no-repeat center center fixed;
-      background-size: cover;
-    }
-  }
-  @media (max-width: 767px) {
-    /* Sweet black: #131314 */
-    body {
-      background: #131314;
-    }
   }
 </style>
