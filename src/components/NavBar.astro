@@ -7,10 +7,11 @@ import TwitterLogo from "./TwitterLogo.astro";
 
 <nav class="flex justify-between p-4">
   <Logo />
-  <section class="flex font-poppins items-center md:gap-3">
+  <div class="flex font-poppins items-center md:gap-3">
     <SocialLink
       title="GitHub"
       ariaLabel="GitHub"
+      navbarHide
       href="https://github.com/hamza12700/"
     >
       <GitHubLogo />
@@ -19,13 +20,14 @@ import TwitterLogo from "./TwitterLogo.astro";
     <SocialLink
       href="https://x.com/Hamza_Rash1d"
       ariaLabel="Twitter"
+      navbarHide
       title="Twitter"
     >
       <TwitterLogo />
     </SocialLink>
 
     <a href="https://github.com/Hamza12700?tab=repositories" target="_blank">
-      <button class="ml-2 md:ml-3 btn" type="button">Projects</button>
+      <button class="btn" type="button">Projects</button>
     </a>
-  </section>
+  </div>
 </nav>
