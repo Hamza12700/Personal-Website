@@ -4,8 +4,6 @@ interface Props {
   href: string;
   title?: string;
   floats?: boolean;
-  inline?: boolean;
-  hidden?: boolean;
   navbarHide?: boolean;
 }
 
@@ -13,9 +11,7 @@ const {
   ariaLabel,
   href,
   floats = true,
-  inline = false,
   title = "",
-  hidden = false,
   navbarHide = false,
 } = Astro.props;
 ---
@@ -24,8 +20,6 @@ const {
   class:list={[
     navbarHide ? "hidden md:block" : "",
     floats ? "hover:-translate-y-1" : "",
-    inline ? "sm:inline mx-2" : "mx-1 md:mx-2",
-    hidden ? "hidden" : "",
     "transition group ease-in-out hover:text-sky-500",
   ]}
   aria-label={ariaLabel}
