@@ -1,21 +1,42 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import { Icon } from "astro-icon";
 ---
 
 <Layout>
-  <main class="mt-12 md:mt-36 mx-5 md:mx-10">
-    <h1 class="text-5xl md:text-7xl mb-3 font-firaCodeBold">Hey, I'm Hamza</h1>
-    <h2 class="text-sky-500 text-3xl md:text-4xl font-openSansBold">
-      Front-End Developer
-    </h2>
-    <p class="my-4 md:w-[45rem] leading-8 font-bold font-poppins text-xl">
-      I'm passionate about the dynamic world of web development, with a
-      particular focus on front-end technologies. In this ever-evolving field, I
-      find myself in a constant state of learning, eagerly embracing new
-      technologies and techniques to stay at the forefront of web development
-      trends. I'm dedicated to turning ideas into beautifully functional web
-      solutions. My mission is to bring creativity and innovation to every
-      project I undertake while enjoying the thrill of coding along the way.
+  <main>
+    <h1 class="text-xl text-shadow mb-3 font-jetbrainsMono">Hi my name is</h1>
+    <h2 class="font-poppins font-bold text-6xl">Hamza Rashid</h2>
+    <p class="my-3 text-2xl">
+      I'm a <span class="font-medium font-poppins underline">Web Developer</span
+      > and a <span class="font-poppins font-medium underline"
+        >Linux Enthusiast</span
+      >
     </p>
+    <div class="flex mt-5 gap-4">
+      <Icon class="cursor-pointer" name="ic:baseline-discord" />
+      <Icon class="cursor-pointer" name="mdi:twitter" />
+      <Icon class="cursor-pointer" name="entypo-social:github" />
+    </div>
   </main>
 </Layout>
+
+<style>
+  [astro-icon] {
+    color: #626262;
+    fill: #626262;
+    width: 2.3rem;
+  }
+
+  .text-shadow {
+    text-shadow: -1px 6px 5px rgba(0, 0, 0, 0.31);
+  }
+
+  h2 {
+    text-shadow: -1px 5px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  p {
+    text-shadow: -1px 5px 5px rgba(0, 0, 0, 0.21);
+  }
+</style>
