@@ -1,3 +1,3 @@
 # My Personal Website
 
-![Screenshot](./public/readme.png)
+![Screenshot](./public/preview.png)
