@@ -1,3 +1,3 @@
 # My Personal Website
 
-![Screenshot](./public/web-screenshot.webp)
+![Screenshot](./public/readme.png)
