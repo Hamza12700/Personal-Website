@@ -5,8 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["Poppins"],
-        firaCodeBold: ["Fira Code"],
-        openSansBold: ["Open Sans"],
+        jetbrainsMono: ["JetBrains Mono"],
       },
     },
   },
