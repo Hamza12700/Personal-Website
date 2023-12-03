@@ -4,10 +4,12 @@ import { Icon } from "astro-icon";
 ---
 
 <Layout>
-  <main class="md:px-0 main px-2">
-    <h1 class="text-xl mb-3 font-jetbrainsMono">Hi my name is</h1>
-    <h2 class="font-poppins text-5xl font-bold md:text-6xl">Hamza Rashid</h2>
-    <p class="my-3 sm:w-[35rem] md:leading-9 text-xl md:text-2xl">
+  <main class="md:px-0 px-2">
+    <h1 class="animate text-xl mb-3 font-jetbrainsMono">Hi my name is</h1>
+    <h2 class="animate font-poppins text-5xl font-bold md:text-6xl">
+      Hamza Rashid
+    </h2>
+    <p class="animate my-3 sm:w-[35rem] md:leading-9 text-xl md:text-2xl">
       A dedicated <span class="font-medium font-poppins underline"
         >Linux Enthusiast,</span
       > seamlessly blending the artisty of <span
@@ -15,13 +17,25 @@ import { Icon } from "astro-icon";
       > with the precision of open-source mastery
     </p>
     <div class="flex mt-5 gap-4">
-      <a aria-label="Discord Link" href="https://discord.com/users/hamza12700">
+      <a
+        class="animate"
+        aria-label="Discord Link"
+        href="https://discord.com/users/hamza12700"
+      >
         <Icon class="cursor-pointer" name="ic:baseline-discord" /></a
       >
-      <a aria-label="Twitter Link" href="https://twitter.com/Hamza_Rash1d">
+      <a
+        class="animate"
+        aria-label="Twitter Link"
+        href="https://twitter.com/Hamza_Rash1d"
+      >
         <Icon class="cursor-pointer" name="mdi:twitter" />
       </a>
-      <a aria-label="Github Link" href="http://github.com/hamza12700">
+      <a
+        class="animate"
+        aria-label="Github Link"
+        href="http://github.com/hamza12700"
+      >
         <Icon class="cursor-pointer" name="entypo-social:github" />
       </a>
     </div>
@@ -31,7 +45,13 @@ import { Icon } from "astro-icon";
 <script>
   import { gsap } from "gsap";
 
-  gsap.from(".main", { duration: 2, y: "-50%", opacity: "-4", ease: "expo" });
+  gsap.from(".animate", {
+    duration: 2,
+    y: "-50%",
+    opacity: "-4",
+    ease: "expo",
+    stagger: 0.2,
+  });
 </script>
 
 <style>
