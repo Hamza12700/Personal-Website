@@ -4,7 +4,7 @@ import { Icon } from "astro-icon";
 ---
 
 <Layout>
-  <main class="md:px-0 px-2">
+  <main class="md:px-0 main px-2">
     <h1 class="text-xl mb-3 font-jetbrainsMono">Hi my name is</h1>
     <h2 class="font-poppins text-5xl font-bold md:text-6xl">Hamza Rashid</h2>
     <p class="my-3 sm:w-[35rem] md:leading-9 text-xl md:text-2xl">
@@ -27,6 +27,12 @@ import { Icon } from "astro-icon";
     </div>
   </main>
 </Layout>
+
+<script>
+  import { gsap } from "gsap";
+
+  gsap.from(".main", { duration: 2, y: "-50%", opacity: "-4", ease: "expo" });
+</script>
 
 <style>
   [astro-icon] {
