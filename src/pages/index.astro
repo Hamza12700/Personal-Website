@@ -4,7 +4,7 @@ import { Icon } from "astro-icon";
 ---
 
 <Layout>
-  <main class="md:px-0 px-2">
+  <main id="main" class="hidden">
     <h1 class="animate text-xl mb-3 font-jetbrainsMono">Hi my name is</h1>
     <h2 class="animate font-poppins text-5xl font-bold md:text-6xl">
       Hamza Rashid
@@ -45,10 +45,13 @@ import { Icon } from "astro-icon";
 <script>
   import { gsap } from "gsap";
 
+  const mainEl = document.getElementById("main") as HTMLElement;
+  mainEl.className = "md:px-0 px-2";
+
   gsap.from(".animate", {
     duration: 2,
     y: "-50%",
-    opacity: "-4",
+    opacity: "-3",
     ease: "expo",
     stagger: { amount: 1 },
   });
