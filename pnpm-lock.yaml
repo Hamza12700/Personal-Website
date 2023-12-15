@@ -12,8 +12,8 @@ dependencies:
     specifier: ^4.0.5
     version: 4.0.5(sass@1.69.5)(typescript@5.3.3)
   gsap:
-    specifier: ^3.12.3
-    version: 3.12.3
+    specifier: ^3.12.4
+    version: 3.12.4
   sass:
     specifier: ^1.69.5
     version: 1.69.5
@@ -2187,8 +2187,8 @@ packages:
       strip-bom-string: 1.0.0
     dev: false
 
-  /gsap@3.12.3:
-    resolution: {integrity: sha512-TySXTE+ABiAVa61W+h5wv2p5GkJT1Uj//4nWpK8EjmhcDqwH++35IvtbQlVVFj+rdcJdFCdCt0SKgb+SwdPq/A==}
+  /gsap@3.12.4:
+    resolution: {integrity: sha512-1ByAq8dD0W4aBZ/JArgaQvc0gyUfkGkP8mgAQa0qZGdpOKlSOhOf+WNXjoLimKaKG3Z4Iu6DKZtnyszqQeyqWQ==}
     dev: false
 
   /has-flag@3.0.0:
