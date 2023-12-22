@@ -5,7 +5,33 @@ import { Icon } from "astro-icon";
 
 <Layout>
   <main id="main" class="hidden">
-    <h1 class="animate text-xl mb-3 font-mono">Hi my name is</h1>
+    <hgroup class="flex mb-4 items-center justify-between">
+      <h1 class="animate text-2xl mb-3 font-mono">Hi my name is</h1>
+
+      <div class="flex gap-4">
+        <a
+          class="animate"
+          aria-label="Discord Link"
+          href="https://discord.com/users/hamza12700"
+        >
+          <Icon class="cursor-pointer" name="ic:baseline-discord" /></a
+        >
+        <a
+          class="animate"
+          aria-label="Twitter Link"
+          href="https://twitter.com/Hamza_Rash1d"
+        >
+          <Icon class="cursor-pointer" name="mdi:twitter" />
+        </a>
+        <a
+          class="animate"
+          aria-label="Github Link"
+          href="http://github.com/hamza12700"
+        >
+          <Icon class="cursor-pointer" name="entypo-social:github" />
+        </a>
+      </div>
+    </hgroup>
     <h2 class="animate text-5xl font-extrabold md:text-6xl">Hamza Rashid</h2>
     <p class="animate my-3 sm:w-[35rem] md:leading-9 text-xl md:text-2xl">
       A dedicated <span class="font-semibold font-normal underline"
@@ -14,29 +40,6 @@ import { Icon } from "astro-icon";
         class="font-normal font-semibold underline">Web Development</span
       > with the precision of open-source mastery
     </p>
-    <div class="flex mt-5 gap-4">
-      <a
-        class="animate"
-        aria-label="Discord Link"
-        href="https://discord.com/users/hamza12700"
-      >
-        <Icon class="cursor-pointer" name="ic:baseline-discord" /></a
-      >
-      <a
-        class="animate"
-        aria-label="Twitter Link"
-        href="https://twitter.com/Hamza_Rash1d"
-      >
-        <Icon class="cursor-pointer" name="mdi:twitter" />
-      </a>
-      <a
-        class="animate"
-        aria-label="Github Link"
-        href="http://github.com/hamza12700"
-      >
-        <Icon class="cursor-pointer" name="entypo-social:github" />
-      </a>
-    </div>
   </main>
 </Layout>
 
