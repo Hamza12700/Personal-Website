@@ -3,6 +3,7 @@ dist/input.css
 
 .env
 .env.production
+tmp
 
 # macOS-specific files
 .DS_Store
