@@ -27,7 +27,7 @@ func main() {
 		tamplates: template.Must(template.ParseGlob("templates/*.html")),
 	}
 
-	e.Static("/public", "static")
+	e.Static("/static", "static")
 
 	e.GET("/", indexPage)
 
