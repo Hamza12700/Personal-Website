@@ -1,3 +1,3 @@
 # My Personal Website
 
-![Screenshot](./public/preview.png)
+![Screenshot](./static/preview.png)
