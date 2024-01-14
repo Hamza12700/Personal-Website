@@ -23,16 +23,15 @@ func indexPage(c echo.Context) error {
 }
 
 func main() {
+
 	build()
 
 	e := echo.New()
-
 	e.Renderer = &TemplateRegistry{
 		tamplates: template.Must(template.ParseGlob("templates/*.html")),
 	}
 
 	e.Static("/static", "static")
-
 	e.GET("/", indexPage)
 
 	e.Logger.Fatal(e.Start(":1212"))
