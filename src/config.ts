@@ -5,7 +5,6 @@ export const SITE: Site = {
   author: "Hamza Rashid",
   desc: "A websit about me",
   title: "HmzaDev",
-  ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
 };
 
